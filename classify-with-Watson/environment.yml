@@ -1,0 +1,11 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - requests
+  - pycurl
+  - xmltodict
+  - beautifulsoup4
+  - lxml
+  - Pillow

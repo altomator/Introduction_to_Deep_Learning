@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<results ResultsGenerationSearchTime="0:00:00.024" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+ <visibility_rights>
+  all
+ </visibility_rights>
+ <notice>
+  <record>
+   <header>
+    <identifier>
+     oai:bnf.fr:gallica/ark:/12148/btv1b103365619
+    </identifier>
+    <datestamp>
+     2018-04-26
+    </datestamp>
+    <setSpec>
+     gallica:corpus:1418
+    </setSpec>
+    <setSpec>
+     gallica:typedoc:images
+    </setSpec>
+   </header>
+   <metadata>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+     <dc:identifier>
+      https://gallica.bnf.fr/ark:/12148/btv1b103365619
+     </dc:identifier>
+     <dc:title>
+      [Recueil. Portraits de Joseph Caillaux]
+     </dc:title>
+     <dc:subject xml:lang="fre">
+      Caillaux, Joseph (1863-1944) -- Portraits
+     </dc:subject>
+     <dc:subject xml:lang="fre">
+      Portraits
+     </dc:subject>
+     <dc:format>
+      31 doc. iconogr.
+     </dc:format>
+     <dc:language>
+      fre
+     </dc:language>
+     <dc:language>
+      français
+     </dc:language>
+     <dc:relation>
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43604814s
+     </dc:relation>
+     <dc:type xml:lang="fre">
+      image fixe
+     </dc:type>
+     <dc:type xml:lang="eng">
+      image
+     </dc:type>
+     <dc:type xml:lang="eng">
+      still image
+     </dc:type>
+     <dc:source>
+      Bibliothèque nationale de France, département Estampes et photographie, N-2 (CAILLAUX, Joseph-Marie-Auguste)
+     </dc:source>
+     <dc:rights xml:lang="fre">
+      domaine public
+     </dc:rights>
+     <dc:rights xml:lang="eng">
+      public domain
+     </dc:rights>
+     <dc:description>
+      Appartient à l’ensemble documentaire : IconEST2
+     </dc:description>
+     <dc:description>
+      Appartient à l’ensemble documentaire : GG14182
+     </dc:description>
+     <dc:format>
+      image/jpeg
+     </dc:format>
+     <dc:format>
+      Nombre total de vues :  33
+     </dc:format>
+    </oai_dc:dc>
+   </metadata>
+  </record>
+ </notice>
+ <provenance>
+  bnf.fr
+ </provenance>
+ <source>
+  Bibliothèque nationale de France, département Estampes et photographie, N-2 (CAILLAUX, Joseph-Marie-Auguste)
+ </source>
+ <typedoc>
+  image
+ </typedoc>
+ <nqamoyen>
+  0.0
+ </nqamoyen>
+ <title>
+  [Recueil. Portraits de Joseph Caillaux]
+ </title>
+ <date nbIssue="1"/>
+ <first_indexation_date>
+  14/10/2013
+ </first_indexation_date>
+</results>
