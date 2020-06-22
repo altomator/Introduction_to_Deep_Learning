@@ -47,11 +47,9 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction-to-deep-learning/master)
 5. *For people with command line skills*: training and test on the same dataset with [TensorFlow Python scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 
-
-
 ### Resources
 * [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (.ppt, French)
-* [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.py) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook]() (English)
+* [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.ipynb) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Watson/) (English)
 * [TensorFlow scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 * Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/images) (4 classes, 100 images each)
 
