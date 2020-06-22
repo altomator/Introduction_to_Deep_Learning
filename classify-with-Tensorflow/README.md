@@ -11,7 +11,7 @@ Three Python scripts (within the Tensorflow framework) are used to train (and ev
 
 >python3 label_image.py 
 
-To classify a set of images and output the results in a CSF file:
+To classify a set of images and output the results in a CSV file:
 
 >python3 label_image.py > out.csv
 
