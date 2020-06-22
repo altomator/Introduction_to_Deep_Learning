@@ -25,11 +25,11 @@ Using the Gallica content, the trainees have to:
 # Educational resources
 
 ## Introduction to the formal neuron model, neural networks and CNN 
-* Theoritical [presentation](https://github.com/altomator/Introduction-to-deep-learning/tree/master/ppt) (.ppt, French)
+* Theoritical [presentation](https://github.com/altomator/Introduction-to-Deep-Learning/tree/master/ppt) (.ppt, French)
 
 ## Hands-on session
 
-This [hands-on session](https://github.com/altomator/Introduction-to-deep-learning/blob/master/ppt/atelier-DL.pptx) illustrates a basic images classification use case.
+This [hands-on session](https://github.com/altomator/Introduction-to-Deep-Learning/blob/master/ppt/atelier-DL.pptx) illustrates a basic images classification use case.
 
 The content to be classified are Gallica images handled thanks to the [IIIF](https://iiif.io/technical-details/) protocol. 
 The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. 
