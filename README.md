@@ -25,19 +25,19 @@ Using the Gallica content, the trainees have to:
 # Educational resources
 
 ## Introduction to the formal neuron model, neural networks and CNN 
-* Theoritical [presentation](https://github.com/altomator/Introduction-to-Deep-Learning/tree/master/ppt) (.ppt, French)
+* Theoritical [presentation](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (.ppt, French)
 
 ## Hands-on session
 
-This [hands-on session](https://github.com/altomator/Introduction-to-Deep-Learning/blob/master/ppt/atelier-DL.pptx) illustrates a basic images classification use case.
+This [hands-on session](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL.pptx) illustrates a basic images classification use case.
 
 The content to be classified are Gallica images handled thanks to the [IIIF](https://iiif.io/technical-details/) protocol. 
 The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. 
 The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning platforms (Tensorflow) for the processing.
 
 ### Prerequisites
-* IBM Watson Studio account or Google Cloud AutoML account for all participants (see the [setup document](https://github.com/altomator/Introduction-to-deep-learning/blob/master/ppt/setup_Watson-AutoML.docx))
-* Basic scripting and command line skills for participants wishing to go through the [Jupyter notebook](https://github.com/altomator/Introduction-to-deep-learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.ipynb) or TensorFlow. 
+* IBM Watson Studio account or Google Cloud AutoML account for all participants (see the [setup document](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/setup_Watson-AutoML.docx))
+* Basic scripting and command line skills for participants wishing to go through the [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.ipynb) or TensorFlow. 
 
 ### Session schedule
 1. Use case definition: choice of the source Gallica images and the model classes; downloading of the images samples
@@ -45,15 +45,15 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 3. Test of the model (using IBM Watson/Google Cloud platforms)
 4. Local test of the model with Python scripting (IBM Watson case). Launch the notebook with Binder here:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction-to-deep-learning/master)
-5. *For people with command line skills*: training and test with [TensorFlow Python scripts](https://github.com/altomator/Introduction-to-deep-learning/tree/master/classify-with-Tensorflow)
+5. *For people with command line skills*: training and test with [TensorFlow Python scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 
 
 
 ### Resources
-* [Tutorial](https://github.com/altomator/Introduction-to-deep-learning/tree/master/ppt) (.ppt, French)
-* [Python 2 script](https://github.com/altomator/Introduction-to-deep-learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.py) for extracting documents from Gallica and inferencing images with IBM Watson + Jupyter notebook (English)
-* [TensorFlow scripts](https://github.com/altomator/Introduction-to-deep-learning/tree/master/classify-with-Tensorflow)
-* Gallica training [dataset](https://github.com/altomator/Introduction-to-deep-learning/tree/master/images) (4 classes, 100 images each)
+* [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (.ppt, French)
+* [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/classify-with-Watson/classify-img-with-iiif-and-watson.py) for extracting documents from Gallica and inferencing images with IBM Watson + Jupyter notebook (English)
+* [TensorFlow scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
+* Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/images) (4 classes, 100 images each)
 
 # Other resources
 * [IBM Watson](https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started) documentation
