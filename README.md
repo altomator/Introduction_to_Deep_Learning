@@ -44,7 +44,7 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 2. Training with IBM Watson Visual Recognition or Google Cloud AutoML 
 3. Test of the model (using IBM Watson/Google Cloud platforms)
 4. Local test of the model with Python scripting (IBM Watson case). Launch the notebook with Binder here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction-to-deep-learning/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction_to_Deep_Learning/master)
 5. *For people with command line skills*: training and test on the same dataset with [TensorFlow Python scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 
 ### Resources
