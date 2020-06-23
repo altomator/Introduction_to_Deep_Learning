@@ -32,7 +32,8 @@ Using the Gallica content, the trainees have to:
 This [hands-on session](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL.pptx) illustrates a basic images classification use case.
 
 The content to be classified are Gallica images handled thanks to the [IIIF](https://iiif.io/technical-details/) protocol. 
-The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. 
+The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. The [Wellcome Collection](https://wellcomecollection.org/) digital library is also used.
+
 The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning platforms (Tensorflow) for the processing.
 
 ### Prerequisites
@@ -40,7 +41,7 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 * Basic scripting and command line skills for participants wishing to go through the Python scripts. 
 
 ### Session schedule
-1. Use case definition: choice of the source Gallica images and the model classes; downloading of the images samples
+1. Use case definition: choice of the source images and the model classes; downloading of the images samples
 2. Training with IBM Watson Visual Recognition or Google Cloud AutoML 
 3. Test of the model (using IBM Watson/Google Cloud platforms)
 4. Local test of the model with Python scripting (IBM Watson case). Launch the notebook with Binder here:
@@ -49,8 +50,8 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 
 ### Resources
 * [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (.ppt, French)
-* [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder/classify-img-with-iiif-and-watson.py) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
-* [TensorFlow scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
+* IBM Watson use case: [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
+* Tensorflow use case: [TensorFlow scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 * Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/images) (4 classes, 100 images each)
 
 # Other resources
