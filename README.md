@@ -51,7 +51,7 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 ### Resources
 * [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (.ppt, French)
 * IBM Watson use case: [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
-* Tensorflow use case: [TensorFlow scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
+* Tensorflow use case: [Python 3 scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 * Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/images) (4 classes, 100 images each)
 
 # Other resources
