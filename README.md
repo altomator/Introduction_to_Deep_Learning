@@ -61,4 +61,5 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
   * https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac (EN)
   * https://www.supinfo.com/articles/single/8037-deep-learning-reseau-convolution (FR)
 * [Library of Congress Newspaper Navigator](https://github.com/LibraryOfCongress/newspaper-navigator)
+* [GallicaPix github](https://github.com/altomator/Image_Retrieval)
 
