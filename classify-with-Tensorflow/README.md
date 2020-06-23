@@ -1,4 +1,4 @@
-* Image genres classification with Inception v3 *
+## Image genres classification with Inception v3 ##
 
 [Inception-v3](https://www.tensorflow.org/tutorials/image_recognition) model (Google's convolutional neural network, CNN) is retrained on a multiclass ground truth datasets (photos, drawings, maps, music...). (The Inception model is downloaded directly from the retrain.py script.)
 
