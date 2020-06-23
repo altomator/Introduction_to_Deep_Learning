@@ -2,7 +2,7 @@
 
 [Inception-v3](https://www.tensorflow.org/tutorials/image_recognition) model (Google's convolutional neural network, CNN) is retrained on a 4 classes ground truth datasets (picture, drawing, map, filter class: covers, blank pages). 
 
-The Inception model is downloaded directly from the retrain.py script.
+The [Inception model](http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz) is downloaded directly from the retrain.py script.
 
 The [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) includes 4 classes of 20 images extracted from Gallica.
 
