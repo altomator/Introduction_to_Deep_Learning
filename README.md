@@ -10,17 +10,17 @@ Elementary introduction to neural networks and deep learning for non-technical p
 This introduction presents the formal neuron model, neural networks and convolutional neural networks.
 
 ## Hands-on session (60 m)
-The hands-on session is based on [Gallica](https://gallica.bnf.fr/) heritage images, brought into play in an image classification scenario, aiming to deduce the technique or genre of these images (picture, drawing, map...) using a CNN trained model (supervised approach).
+The hands-on session is based on [Gallica](https://gallica.bnf.fr/) heritage images (or any other IIIF-enable repository), brought into play in an image classification scenario, aiming to deduce the technique or genre of these images (picture, drawing, map...) using a CNN trained model (supervised approach).
 
 ![Picture class](https://gallica.bnf.fr/ark:/12148/btv1b53086966b/f1/.thumbnail)
 ![Drawing class](https://gallica.bnf.fr/ark:/12148/btv1b102201347/f1/.thumbnail)
 ![Filter class](https://gallica.bnf.fr/ark:/12148/btv1b10027545g/f1/.thumbnail)
 ![Map class](https://gallica.bnf.fr/ark:/12148/btv1b52504043q/f1/.thumbnail)
 
-Using the Gallica content, the trainees have to:
-- select and download images from Gallica and create a training dataset
+The trainees have to:
+- select and download images from an digital repository (Gallica and the Welcome Collection are used) and create a training dataset
 - train a classification model (with commercial APIs or open source IA frameworks)
-- apply the model to Gallica images extracted thanks to Gallica APIs (including IIIF)
+- apply the model to the heritage images extracted thanks to APIs (including IIIF)
 
 # Educational resources
 
