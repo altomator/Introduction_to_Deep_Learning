@@ -37,7 +37,7 @@ The documents metadata and files are extracted from the Gallica digital reposito
 The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning platforms (Tensorflow) for the processing.
 
 ### Prerequisites
-* IBM Watson Studio account or Google Cloud AutoML account for all participants (see the [setup document] ([FR](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/setup_Watson-AutoML.docx), [EN](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/setup_Watson-AutoML_EN.docx))
+* IBM Watson Studio account or Google Cloud AutoML account for all participants. See the setup document ([FR](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/setup_Watson-AutoML.docx), [EN](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/setup_Watson-AutoML_EN.docx))
 * Basic scripting and command line skills for participants wishing to go through the Python scripts. 
 
 ### Session schedule
