@@ -4,7 +4,7 @@
 
 The [Inception model](http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz) is downloaded from the retrain.py script.
 
-The [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) includes 4 classes of 20 images extracted from Gallica.
+The [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) includes 4 classes of 100 images extracted from Gallica.
 
 Three Python scripts (within the Tensorflow framework) are used to train (and evaluate) a local model:
 - split.py: the GT dataset is splited in a training set (e.g. 2/3) and an evaluation set (1/3). The GT local dataset directory and the training/evaluation ratio must be defined in the script.
