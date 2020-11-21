@@ -8,7 +8,6 @@ dependencies:
   - beautifulsoup4
   - lxml
   - Pillow
-  - json
   - IPython
   - seaborn
   - matplotlib
