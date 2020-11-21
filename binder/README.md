@@ -5,7 +5,7 @@ Then it inferes image genre classification  thanks to an existing Watson Studio/
 
 After the inference is done, a formal evaluation is done.
 
-![Confusion matrix](https://github.com/altomator/Introduction_to_Deep_Learning/images/confusion_matrix.png)
+![Confusion matrix](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/images/confusion_matrix.png)
 
 The notebook can be launched in your browser with [Binder](https://mybinder.org/v2/gh/altomator/Introduction_to_Deep_Learning/master).
 
