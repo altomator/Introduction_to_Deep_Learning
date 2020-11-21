@@ -10,8 +10,5 @@ dependencies:
   - Pillow
   - json
   - IPython
-  - os
-  - fnmatch
   - seaborn
   - matplotlib
-  - sklearn
