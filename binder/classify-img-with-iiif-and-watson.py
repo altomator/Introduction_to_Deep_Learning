@@ -33,7 +33,7 @@ doc_max = 2
 METADATA_BASEURL = 'https://gallica.bnf.fr/iiif/ark:/'
 # IBM Watson base URL
 WATSON_BASEURL = 'https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19'
-WATSON_KEY = '2DZdFVOxmhJnQIq3MOQsUOg-7RqARAWa35q-Gh31NnSK'
+WATSON_KEY = '***'
 WATSON_MODEL = 'DefaultCustomModel_1457318034' # classification of images genres : photo, drawing, map, filter class
 WATSON_VERSION = (('version', '2018-03-19'),)
 
