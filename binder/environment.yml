@@ -2,10 +2,16 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.8
   - requests
-  - pycurl
   - xmltodict
   - beautifulsoup4
   - lxml
   - Pillow
+  - json
+  - IPython
+  - os
+  - fnmatch
+  - seaborn
+  - matplotlib
+  - sklearn

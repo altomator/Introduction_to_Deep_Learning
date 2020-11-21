@@ -14,11 +14,11 @@ class Document(object):
         ISSUES_BASEURL = 'https://gallica.bnf.fr/services/Issues?ark=ark:/'
     
         url = "".join([ISSUES_BASEURL, id, '/date'])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
-        print soup
+        print(soup)
         file = open('issues.xml', 'w')
         file.write(soup.prettify().encode('UTF-8'))
         file.close()
@@ -32,11 +32,11 @@ class Document(object):
         ISSUESDATE_BASEURL = 'https://gallica.bnf.fr/services/Issues?ark=ark:/'
       
         url = "".join([ISSUESDATE_BASEURL, id, '/date', '&date=', date])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
-        print soup
+        print(soup)
         file = open('issues_date.xml', 'w')
         file.write(soup.prettify().encode('UTF-8'))
         file.close()
@@ -50,7 +50,7 @@ class Document(object):
         OAI_BASEURL = 'https://gallica.bnf.fr/services/OAIRecord?ark=ark:/'
     
         url = "".join([OAI_BASEURL, id])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -67,7 +67,7 @@ class Document(object):
         PAGINATION_BASEURL = 'https://gallica.bnf.fr/services/Pagination?ark=ark:/'
     
         url = "".join([PAGINATION_BASEURL, id])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -84,7 +84,7 @@ class Document(object):
         IMAGES_BASEURL = 'https://gallica.bnf.fr/ark:/'
     
         url = "".join([IMAGES_BASEURL, id, '/', res])
-        print url
+        print(url)
     
         response = requests.get(url, stream=True)
         with open('simple_image.jpg', 'wb') as out_file:
@@ -97,7 +97,7 @@ class Document(object):
         CONTENT_BASEURL = 'https://gallica.bnf.fr/services/ContentSearch?ark='
     
         url = "".join([CONTENT_BASEURL, id, '&query=', query])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -114,7 +114,7 @@ class Document(object):
         CONTENTPAGE_BASEURL = 'https://gallica.bnf.fr/services/ContentSearch?ark='
     
         url = "".join([CONTENTPAGE_BASEURL, id, '&query=', query, '&page=', page])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -131,7 +131,7 @@ class Document(object):
         TOC_BASEURL = 'https://gallica.bnf.fr/services/Toc?ark='
     
         url = "".join([TOC_BASEURL, id])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -147,7 +147,7 @@ class Document(object):
         TEXTEBRUT_BASEURL = 'https://gallica.bnf.fr/ark:/'
     
         url = "".join([TEXTEBRUT_BASEURL, id, '.texteBrut'])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
@@ -163,11 +163,11 @@ class Document(object):
         OCR_BASEURL = 'https://gallica.bnf.fr/RequestDigitalElement?O='
     
         url = "".join([OCR_BASEURL, id, '&E=ALTO&Deb=', page])
-        print url
+        print(url)
     
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
-        print soup
+        print(soup)
         file = open('ocr.xml', 'w')
         file.write(soup.prettify().encode('UTF-8'))
         file.close()

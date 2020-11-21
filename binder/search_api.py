@@ -20,15 +20,15 @@ class Search(object):
             search_string = (', '.join('"' + item + '"' for item in args))
       
         url = "".join([RECHERCHE_BASEURL, search_string, START_REC])
-        print url
+        print(url)
 
         s = requests.get(url, stream=True)
         soup = BeautifulSoup(s.content,"lxml-xml")
-        print soup
+        print(soup)
         #file = open('gallica.xml', 'w')
         #file.write(tree)
         #file.close()
-        with open('gallica.xml', 'w') as f:
+        with open('gallica.xml', 'wb') as f:
             f.write(soup.prettify().encode('UTF-8'))
             f.close()
         with open('gallica.xml') as xml:
