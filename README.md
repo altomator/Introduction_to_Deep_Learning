@@ -31,6 +31,8 @@ The trainees have to:
 
 This hands-on session ([FR](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL.pptx), [EN](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL_EN.pptx))  illustrates a basic images classification use case.
 
+A more detailled tutorial is also available [here](https://github.com/CENL-Network-Group-AI/Recipes/wiki/Images-Classification-Recipe).
+
 The content to be classified are Gallica images handled thanks to the [IIIF](https://iiif.io/technical-details/) protocol. 
 The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. The [Wellcome Collection](https://wellcomecollection.org/) digital library is also used.
 
@@ -50,7 +52,7 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 
 ### Resources
 * [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (French, English)
-* IBM Watson use case: [Python 2 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
+* IBM Watson use case: [Python 3 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
 * Tensorflow use case: [Python 3 scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
 * Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) (4 classes, 100 images each)
 
