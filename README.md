@@ -54,14 +54,16 @@ The session leverages SaS (IBM Watson, Google Cloud Vision) and deep learning pl
 * [Tutorial](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/ppt) (French, English)
 * IBM Watson use case: [Python 3 script](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/binder) for extracting documents from Gallica and inferencing images with IBM Watson + [Jupyter notebook](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/binder/classify-img-with-iiif-and-watson.ipynb) (English)
 * Tensorflow use case: [Python 3 scripts](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow)
-* Gallica training [dataset](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) (4 classes, 100 images each)
+* [Library of Congress Newspaper Navigator use case](https://github.com/LibraryOfCongress/newspaper-navigator)
+* [BnF GallicaPix use case](https://github.com/altomator/Image_Retrieval). Training [dataset1](https://github.com/altomator/Introduction_to_Deep_Learning/tree/master/classify-with-Tensorflow/imInput/bnfDataset) (4 classes, 100 images each), [dataset2](http://api.bnf.fr/jeu-dimages-annotees-de-gallica-pour-la-classification-automatique) (11 classes, 1,000 images each)
+
 
 # Other resources
 * [IBM Watson](https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started) documentation
 * [Google AutoML](https://cloud.google.com/vision/automl/docs) documentation
 * Convolutional neural networks:
-  * https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac (EN)
+  * [Simple Introduction to Convolutional Neural Networks](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac) (EN)
   * https://www.supinfo.com/articles/single/8037-deep-learning-reseau-convolution (FR)
-* [Library of Congress Newspaper Navigator](https://github.com/LibraryOfCongress/newspaper-navigator)
-* [GallicaPix github](https://github.com/altomator/Image_Retrieval)
+  * [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
+
 
