@@ -31,7 +31,7 @@ The trainees have to:
 
 This hands-on session ([FR](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL.pptx), [EN](https://github.com/altomator/Introduction_to_Deep_Learning/blob/master/ppt/atelier-DL_EN.pptx))  illustrates a basic images classification use case.
 
-A more detailled tutorial is also available [here](https://github.com/CENL-Network-Group-AI/Recipes/wiki/Images-Classification-Recipe).
+![Hands-on](https://github.com/altomator/Introduction_to_Deep_Learning-2-Object_Detection/blob/main/images/hands-on.png) A more detailled tutorial is also available [here](https://github.com/CENL-Network-Group-AI/Recipes/wiki/Images-Classification-Recipe).
 
 The content to be classified are Gallica images handled thanks to the [IIIF](https://iiif.io/technical-details/) protocol. 
 The documents metadata and files are extracted from the Gallica digital repository with the help of [Gallica's APIs](http://api.bnf.fr) and the [PyGallica](https://github.com/ian-nai/PyGallica) Python wrapper for the Gallica's APIs. Then, the image files are processed with a supervised classification approach. The [Wellcome Collection](https://wellcomecollection.org/) digital library is also used.
